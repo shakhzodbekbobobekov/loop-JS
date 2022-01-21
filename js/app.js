@@ -36,3 +36,18 @@ parallelogram.addEventListener('click', () => {
     parallelogram.style.backgroundColor = 'crimson'
     parallelogram.style.color = 'white'
 })
+
+
+
+replay.addEventListener('click', () => {
+    kvadrat.style.backgroundColor = 'aqua'
+    kvadrat.style.color = 'white'
+    cricle.style.backgroundColor = 'aqua'
+    cricle.style.color = 'blue'
+    parallelogram.style.backgroundColor = 'aqua'
+    parallelogram.style.color = 'yellow'
+
+    parallelogram.innerHTML = 'Click Me 🥱'
+    cricle.innerHTML = 'Click Me 😉'
+    kvadrat.innerHTML = 'Click Me 😆'
+})
